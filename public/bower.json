@@ -1,0 +1,21 @@
+{
+  "name": "wtc2014",
+  "version": "0.1.0",
+  "description": "WTC 2014",
+  "main": "index.html",
+  "authors": [
+    "Friedger Mueffke <friedger@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "../"
+  ],
+  "dependencies": {
+    "webcomponentjs": "polymer/webcomponentsjs#^0.5.1",
+    "google-map": "GoogleWebComponents/google-map#~0.4.0"
+  }
+}

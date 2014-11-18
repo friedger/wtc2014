@@ -1,0 +1,26 @@
+#sdk: "/Users/friedger/.rvm/gems/ruby-1.9.3-p551/gems/rhodes-5.0.2"
+sdkversion: 5.0.0
+name: TrampolinChampionchip
+version: 1.0
+vendor: rhomobile
+build: debug
+applog: rholog.txt
+iphone:
+  configuration: Release
+  sdk: iphonesimulator7.0
+  provisionprofile:
+  codesignidentity: iPhone Developer
+  entitlements: ""
+  BundleIdentifier: com.rhomobile.trampolinchampionchip
+  BundleURLScheme: trampolinchampionchip
+wp8:
+  productid: 'b6d7a330-5177-0132-baa5-48d705e00049'
+android:
+  manifest_template: 'AndroidManifest.erb'
+  version: 2.3.3
+
+wm:
+  #sdk: "MC3000c50b (ARMV4I)"
+  #sdk: "Windows Mobile 6.5.3 Professional DTK (ARMV4I)"
+
+extensions: ["rhoconnect-client", "wear"]

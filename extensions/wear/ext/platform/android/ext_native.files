@@ -1,0 +1,7 @@
+ext/platform/android/generated/jni/Wear.cpp
+ext/platform/android/generated/jni/wear_ruby_wrap.cpp
+ext/platform/android/generated/jni/wear_js_wrap.cpp
+ext/platform/android/jni/Wear_impl.cpp
+ext/shared/generated/wear_api_init.cpp
+ext/shared/generated/wear_js_api.cpp
+ext/shared/generated/wear_ruby_api.c

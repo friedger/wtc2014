@@ -1,0 +1,9 @@
+ext/platform/android/generated/src/com/rho/wear/WearBase.java
+ext/platform/android/generated/src/com/rho/wear/WearFactorySingleton.java
+ext/platform/android/generated/src/com/rho/wear/WearSingletonBase.java
+ext/platform/android/generated/src/com/rho/wear/IWear.java
+ext/platform/android/generated/src/com/rho/wear/IWearFactory.java
+ext/platform/android/generated/src/com/rho/wear/IWearSingleton.java
+ext/platform/android/src/com/rho/wear/Wear.java
+ext/platform/android/src/com/rho/wear/WearFactory.java
+ext/platform/android/src/com/rho/wear/WearSingleton.java

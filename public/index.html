@@ -1,6 +1,9 @@
 <html>
 <head>
 <script src="api/rhoapi-modules.js"></script>
+<script src="../webcomponentsjs/webcomponents.min.js"></script>
+<link rel="import" href="google-map.html">
+<link rel="import" href="google-map-directions.html">
 </head>
 <body>
 <h1>Welcome</h1>
@@ -8,6 +11,11 @@
 		<google-map-marker latitude="29.22841" longitude=",-81.011154,17z" title="WTC2014">
 		</google-map-marker>
 	</google-maps>
+
+<script>
+   setTimeout(function(){
+     Rho.Notification.showPopup({title:"WTC 2014", message:"World Trampolin Championchips have started", type:[Rho.Notification.TYPE_NOTIFICATION]});
+   }, 2000);	
 </script>
 </body>
 </html>

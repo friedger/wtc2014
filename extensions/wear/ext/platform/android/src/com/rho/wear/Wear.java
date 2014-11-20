@@ -29,19 +29,18 @@ public class Wear extends WearBase implements IWear {
     }
 
     public void notify(NotificationDetails details, IMethodResult result){
-    	NotificationMangerCompat notificationManager = NotificationManagerCompat.from(RhoService.getContext());
-    	Notification notification = buildNotification(details);
-    	noficationManger.notify(notification);
+//    	NotificationMangerCompat notificationManager = NotificationManagerCompat.from(RhoService.getContext());
+//    	Notification notification = buildNotification(details);
+//    	noficationManger.notify(notification);
     }
     
-    public Notification buildNotification(NotificationDetails details){
-    	WearExtender extender = new WearExtender();
-    	
-    	Builder builder = new NotificationCompat.Builder()
-    	  .setSmallIcon()
-    	  .extend(extender);
-    	  .addPage()
-    }
+//    public Notification buildNotification(NotificationDetails details){
+//    	WearExtender extender = new WearExtender();
+//    	
+//    	Builder builder = new NotificationCompat.Builder()
+//    	  .setSmallIcon()
+//    	  .extend(extender);    	  
+//    }
     
     public static class NotificationDetails {
     	public String title;
